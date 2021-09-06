@@ -1,0 +1,12 @@
+.card-header {
+    background-color: #7fffd4;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.2);
+}
+
+.alert-danger {
+    margin-top: 5px;
+    padding: 3px 10px;
+}
