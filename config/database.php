@@ -65,12 +65,12 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'url' => env('DATABASE_URL', 'postgres://fqhirwxblfjifb:ffdee9251bd3de4f9cccf1e1e086b71b6726669346ca2ed95f384ecb8a5fdb2b@ec2-50-17-255-244.compute-1.amazonaws.com:5432/d4uqlou7ht90gg'),
-            'host' => env('DB_HOST', 'ec2-50-17-255-244.compute-1.amazonaws.com'),
+            'url' => env('DATABASE_URL', 'postgres://qosahhsxjaqrid:21928b5f7da99366dd4f09d3ba67c8402cfcc879bdb1bd8f3304df046cff55e0@ec2-54-147-126-173.compute-1.amazonaws.com:5432/d2tinijqk2p8ls'),
+            'host' => env('DB_HOST', 'ec2-54-147-126-173.compute-1.amazonaws.com'),
             'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'd4uqlou7ht90gg'),
-            'username' => env('DB_USERNAME', 'fqhirwxblfjifb'),
-            'password' => env('DB_PASSWORD', 'ffdee9251bd3de4f9cccf1e1e086b71b6726669346ca2ed95f384ecb8a5fdb2b'),
+            'database' => env('DB_DATABASE', 'd2tinijqk2p8ls'),
+            'username' => env('DB_USERNAME', 'qosahhsxjaqrid'),
+            'password' => env('DB_PASSWORD', '21928b5f7da99366dd4f09d3ba67c8402cfcc879bdb1bd8f3304df046cff55e0'),
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
